@@ -2,68 +2,68 @@
 <testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-29T18:00:44 BST" name="ItemAPITestSuite" finished-at="2025-07-29T18:00:47 BST" duration-ms="2556">
+  <suite started-at="2025-07-29T18:05:14 BST" name="ItemAPITestSuite" finished-at="2025-07-29T18:05:16 BST" duration-ms="2776">
     <groups>
     </groups>
-    <test started-at="2025-07-29T18:00:44 BST" name="API Tests" finished-at="2025-07-29T18:00:47 BST" duration-ms="2556">
+    <test started-at="2025-07-29T18:05:14 BST" name="API Tests" finished-at="2025-07-29T18:05:16 BST" duration-ms="2776">
       <class name="com.qa.tests.CreateItemTests">
-        <test-method signature="createItemWithBlankName()[pri:0, instance:com.qa.tests.CreateItemTests@48f2bd5b]" started-at="2025-07-29T18:00:47 BST" name="createItemWithBlankName" finished-at="2025-07-29T18:00:47 BST" duration-ms="26" status="PASS">
+        <test-method signature="createItemWithBlankName()[pri:0, instance:com.qa.tests.CreateItemTests@48f2bd5b]" started-at="2025-07-29T18:05:16 BST" name="createItemWithBlankName" finished-at="2025-07-29T18:05:16 BST" duration-ms="30" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createItemWithBlankName -->
-        <test-method signature="createValidItem()[pri:0, instance:com.qa.tests.CreateItemTests@48f2bd5b]" started-at="2025-07-29T18:00:47 BST" name="createValidItem" finished-at="2025-07-29T18:00:47 BST" duration-ms="54" status="PASS">
+        <test-method signature="createValidItem()[pri:0, instance:com.qa.tests.CreateItemTests@48f2bd5b]" started-at="2025-07-29T18:05:16 BST" name="createValidItem" finished-at="2025-07-29T18:05:16 BST" duration-ms="69" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createValidItem -->
       </class> <!-- com.qa.tests.CreateItemTests -->
       <class name="com.qa.tests.LoginTests">
-        <test-method signature="testInvalidLogin()[pri:0, instance:com.qa.tests.LoginTests@459e9125]" started-at="2025-07-29T18:00:44 BST" name="testInvalidLogin" finished-at="2025-07-29T18:00:47 BST" duration-ms="2070" status="PASS">
+        <test-method signature="testInvalidLogin()[pri:0, instance:com.qa.tests.LoginTests@459e9125]" started-at="2025-07-29T18:05:14 BST" name="testInvalidLogin" finished-at="2025-07-29T18:05:16 BST" duration-ms="2245" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInvalidLogin -->
-        <test-method signature="testValidLogin()[pri:0, instance:com.qa.tests.LoginTests@459e9125]" started-at="2025-07-29T18:00:47 BST" name="testValidLogin" finished-at="2025-07-29T18:00:47 BST" duration-ms="33" status="PASS">
+        <test-method signature="testValidLogin()[pri:0, instance:com.qa.tests.LoginTests@459e9125]" started-at="2025-07-29T18:05:16 BST" name="testValidLogin" finished-at="2025-07-29T18:05:16 BST" duration-ms="35" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testValidLogin -->
       </class> <!-- com.qa.tests.LoginTests -->
       <class name="com.qa.tests.UpdateItemTests">
-        <test-method is-config="true" signature="setupItem()[pri:0, instance:com.qa.tests.UpdateItemTests@3c46e67a]" started-at="2025-07-29T18:00:47 BST" name="setupItem" finished-at="2025-07-29T18:00:47 BST" duration-ms="24" status="PASS">
+        <test-method is-config="true" signature="setupItem()[pri:0, instance:com.qa.tests.UpdateItemTests@3c46e67a]" started-at="2025-07-29T18:05:16 BST" name="setupItem" finished-at="2025-07-29T18:05:16 BST" duration-ms="25" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupItem -->
-        <test-method signature="updateItemWithInvalidId()[pri:0, instance:com.qa.tests.UpdateItemTests@3c46e67a]" started-at="2025-07-29T18:00:47 BST" name="updateItemWithInvalidId" finished-at="2025-07-29T18:00:47 BST" duration-ms="25" status="PASS">
+        <test-method signature="updateItemWithInvalidId()[pri:0, instance:com.qa.tests.UpdateItemTests@3c46e67a]" started-at="2025-07-29T18:05:16 BST" name="updateItemWithInvalidId" finished-at="2025-07-29T18:05:16 BST" duration-ms="21" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateItemWithInvalidId -->
-        <test-method signature="updateItemWithoutkName()[pri:0, instance:com.qa.tests.UpdateItemTests@3c46e67a]" started-at="2025-07-29T18:00:47 BST" name="updateItemWithoutkName" finished-at="2025-07-29T18:00:47 BST" duration-ms="23" status="PASS">
+        <test-method signature="updateItemWithoutkName()[pri:0, instance:com.qa.tests.UpdateItemTests@3c46e67a]" started-at="2025-07-29T18:05:16 BST" name="updateItemWithoutkName" finished-at="2025-07-29T18:05:16 BST" duration-ms="22" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateItemWithoutkName -->
-        <test-method signature="updateValidItem()[pri:0, instance:com.qa.tests.UpdateItemTests@3c46e67a]" started-at="2025-07-29T18:00:47 BST" name="updateValidItem" finished-at="2025-07-29T18:00:47 BST" duration-ms="25" status="PASS">
+        <test-method signature="updateValidItem()[pri:0, instance:com.qa.tests.UpdateItemTests@3c46e67a]" started-at="2025-07-29T18:05:16 BST" name="updateValidItem" finished-at="2025-07-29T18:05:16 BST" duration-ms="25" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateValidItem -->
-        <test-method is-config="true" signature="deleteItem()[pri:0, instance:com.qa.tests.UpdateItemTests@3c46e67a]" started-at="2025-07-29T18:00:47 BST" name="deleteItem" finished-at="2025-07-29T18:00:47 BST" duration-ms="13" status="PASS">
+        <test-method is-config="true" signature="deleteItem()[pri:0, instance:com.qa.tests.UpdateItemTests@3c46e67a]" started-at="2025-07-29T18:05:16 BST" name="deleteItem" finished-at="2025-07-29T18:05:16 BST" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteItem -->
       </class> <!-- com.qa.tests.UpdateItemTests -->
       <class name="com.qa.tests.GetItemsTests">
-        <test-method signature="getItemsNegative()[pri:1, instance:com.qa.tests.GetItemsTests@692f203f]" started-at="2025-07-29T18:00:47 BST" name="getItemsNegative" finished-at="2025-07-29T18:00:47 BST" duration-ms="64" status="PASS">
+        <test-method signature="getItemsNegative()[pri:1, instance:com.qa.tests.GetItemsTests@692f203f]" started-at="2025-07-29T18:05:16 BST" name="getItemsNegative" finished-at="2025-07-29T18:05:16 BST" duration-ms="98" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getItemsNegative -->
-        <test-method signature="getItems()[pri:2, instance:com.qa.tests.GetItemsTests@692f203f]" started-at="2025-07-29T18:00:47 BST" name="getItems" finished-at="2025-07-29T18:00:47 BST" duration-ms="39" status="PASS">
+        <test-method signature="getItems()[pri:2, instance:com.qa.tests.GetItemsTests@692f203f]" started-at="2025-07-29T18:05:16 BST" name="getItems" finished-at="2025-07-29T18:05:16 BST" duration-ms="49" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getItems -->
       </class> <!-- com.qa.tests.GetItemsTests -->
       <class name="com.qa.tests.DeleteItemTests">
-        <test-method signature="deleteValidItem()[pri:0, instance:com.qa.tests.DeleteItemTests@c730b35]" started-at="2025-07-29T18:00:47 BST" name="deleteValidItem" finished-at="2025-07-29T18:00:47 BST" duration-ms="38" status="PASS">
+        <test-method signature="deleteValidItem()[pri:0, instance:com.qa.tests.DeleteItemTests@c730b35]" started-at="2025-07-29T18:05:16 BST" name="deleteValidItem" finished-at="2025-07-29T18:05:16 BST" duration-ms="37" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteValidItem -->
-        <test-method signature="deleteinvalidItem()[pri:0, instance:com.qa.tests.DeleteItemTests@c730b35]" started-at="2025-07-29T18:00:47 BST" name="deleteinvalidItem" finished-at="2025-07-29T18:00:47 BST" duration-ms="44" status="PASS">
+        <test-method signature="deleteinvalidItem()[pri:0, instance:com.qa.tests.DeleteItemTests@c730b35]" started-at="2025-07-29T18:05:16 BST" name="deleteinvalidItem" finished-at="2025-07-29T18:05:16 BST" duration-ms="30" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteinvalidItem -->
