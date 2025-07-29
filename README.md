@@ -1,5 +1,5 @@
 ```CRUD on Items REST API Test Suite
-Automated tests for the CreateItem endpoint using RestAssured, designed to validate item creation, cleanup, and response structure. Developed in Java with integrated reporting via ExtentReports.
+Automated tests for the /items endpoint using RestAssured, designed to validate item creation, cleanup, and response structure. Developed in Java with integrated reporting via ExtentReports.
 🔧 Technologies Used
 - Java (JDK 11+)
 - RestAssured for API testing
