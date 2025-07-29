@@ -3,6 +3,7 @@ package com.qa.tests;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 
+import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
@@ -48,6 +49,11 @@ public class DeleteItemTests {
 		.when().delete(BaseConfig.BASE_URL + "/items/{item_id}")
 		.then().assertThat().log().all().statusCode(200).extract().response();
         
+		JsonPath jp1 = Utils.rawToJson(res.asString());
+		String actual_message = jp1.getString("message");
+		Assert.assertEquals(actual_message, "Item deleted successfully");
+		String actual_id = jp1.getString("deletedId");
+		Assert.assertEquals(actual_id, item_id);
 		
 		 ExtentTestManager.getTest().info("Status Code: " + res.getStatusCode());
 		 ExtentTestManager.getTest().info("Response Body: " + res.asPrettyString());

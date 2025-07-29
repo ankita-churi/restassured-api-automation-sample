@@ -1,4 +1,5 @@
 package com.qa.setup;
+import org.json.JSONObject;
 
 public class PayloadBuilder {
 
@@ -20,15 +21,14 @@ public class PayloadBuilder {
 	}
 	
 
-	
-public static String addUpdateItem(String name,int price,String category){
-		
-		return "{\r\n"
-				+ "  \"name\":\""+name+"\",\r\n"
-				+ "  \"price\": "+price+",\r\n"
-				+ "  \"category\": \""+category+"\"\r\n"
-				+ "}";
+
+	public static String addUpdateItem(String name, double price, String category) {
+	    JSONObject json = new JSONObject();
+	    json.put("name", name);
+	    json.put("price", price);
+	    json.put("category", category);
+	    return json.toString();
 	}
-
-
+	
 }
+
