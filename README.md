@@ -1,4 +1,4 @@
-CRUD on Items REST API Test Suite
+```CRUD on Items REST API Test Suite
 Automated tests for the CreateItem endpoint using RestAssured, designed to validate item creation, cleanup, and response structure. Developed in Java with integrated reporting via ExtentReports.
 🔧 Technologies Used
 - Java (JDK 11+)
@@ -20,3 +20,4 @@ git clone https://github.com/ankita-churi/qa-api-app-nodejs.git
 cd qa-api-app-nodejs
 npm install
 npm start
+```
