@@ -20,4 +20,7 @@ git clone https://github.com/ankita-churi/qa-api-app-nodejs.git
 cd qa-api-app-nodejs
 npm install
 npm start
+
+
+Test Strategy doc link : https://github.com/ankita-churi/restassured-api-automation-sample/blob/main/src/main/Docs/test-strategy.md
 ```
