@@ -30,8 +30,7 @@ jobs:
       - name: Run Robot Framework tests
         shell: pwsh
         run: |
-          mkdir reports
-          robot --outputdir reports tests/
+          robot --variable ENV:prod  -d Results tests
 
       - name: Upload Robot Framework report
         uses: actions/upload-artifact@v4
