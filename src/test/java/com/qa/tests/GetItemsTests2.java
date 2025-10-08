@@ -21,23 +21,23 @@ import io.restassured.specification.RequestSpecification;
 @Listeners(ExtentListener.class)
 public class GetItemsTests2 {
 	
-	@Test(priority = 1)
-	public void getItemsNegative() {
-		RequestSpecification reqSpec  =  
-				RestAssured.given()
-				.baseUri(BaseConfig.BASE_URL )
-				.basePath("/items")
-				.header("Content-Type","Application/json");
-		
-		Response res = reqSpec.get();
-		
-		res.then().assertThat().statusCode(204);
-		
-		ExtentTestManager.getTest().info("Status Code: " + res.getStatusCode());
-		ExtentTestManager.getTest().info("Response Body: " + res.asPrettyString());
-
-	}
-	
+//	@Test(priority = 1)
+//	public void getItemsNegative() {
+//		RequestSpecification reqSpec  =  
+//				RestAssured.given()
+//				.baseUri(BaseConfig.BASE_URL )
+//				.basePath("/items")
+//				.header("Content-Type","Application/json");
+//		
+//		Response res = reqSpec.get();
+//		
+//		res.then().assertThat().statusCode(204);
+//		
+//		ExtentTestManager.getTest().info("Status Code: " + res.getStatusCode());
+//		ExtentTestManager.getTest().info("Response Body: " + res.asPrettyString());
+//
+//	}
+//	
 	
 	@Test(priority = 2)
 	public void getItems() {

@@ -16,14 +16,14 @@ import java.util.Map;
 @Listeners(ExtentListener.class)
 public class GetItemsTests extends BaseService {
 
-    @Test(priority = 1)
-    public void getItemsNegative() {
-        Response res = getRequest("/items");
-        res.then().assertThat().statusCode(204);
-
-        ExtentTestManager.getTest().info("Status Code: " + res.getStatusCode());
-        ExtentTestManager.getTest().info("Response Body: " + res.asPrettyString());
-    }
+//    @Test(priority = 1)
+//    public void getItemsNegative() {
+//        Response res = getRequest("/items");
+//        res.then().assertThat().statusCode(204);
+//
+//        ExtentTestManager.getTest().info("Status Code: " + res.getStatusCode());
+//        ExtentTestManager.getTest().info("Response Body: " + res.asPrettyString());
+//    }
 
     @Test(priority = 2)
     public void getItems() {

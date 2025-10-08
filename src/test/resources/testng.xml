@@ -1,0 +1,12 @@
+
+<suite name="ItemAPITestSuite">
+  <test name="API Tests">
+    <classes>
+      <class name="com.qa.tests.LoginTests"/>
+      <class name="com.qa.tests.GetItemsTests2"/>
+      <class name="com.qa.tests.CreateItemTests2"/>
+      <class name="com.qa.tests.UpdateItemTests2"/>
+      <class name="com.qa.tests.DeleteItemTests2"/>
+    </classes>
+  </test>
+</suite>
