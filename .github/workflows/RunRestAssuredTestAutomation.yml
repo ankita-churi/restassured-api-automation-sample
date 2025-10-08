@@ -22,6 +22,22 @@ jobs:
       - name: Verify Java installation
         run: java -version
 
+      - name: Checkout backend API repo
+        run: |
+          git clone https://github.com/ankita-churi/qa-api-app-nodejs.git
+          cd qa-api-app-nodejs
+          npm install
+
+      - name: Start backend server
+        run: |
+          cd qa-api-app-nodejs
+          Start-Process cmd -ArgumentList '/c npm start'
+
+      - name: Wait for API to start
+        run: |
+          Write-Host "Waiting for backend to start..."
+          Start-Sleep -Seconds 10
+      
       - name: Build and Run REST Assured Tests
         run: mvn clean test --batch-mode
 
@@ -30,4 +46,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: test-results
-          path: target/surefire-reports/
+          path: test-output/extent-reports/
